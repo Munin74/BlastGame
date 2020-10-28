@@ -1,0 +1,184 @@
+body {
+    background-color: #929398;
+    margin: 0;
+    font: normal 1.5em Marvin;
+    color: white;
+}
+h1{
+   text-align: center;
+   font-size: 1.5em;
+   margin:auto; 
+}
+.container{
+    display: block;
+    margin: 0 auto;
+    width: 1180px;
+    min-height: 75%;
+}
+.top-block{
+    display: flex;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.container-progress{
+    margin-left: 95px;
+    border-radius: 0 0 30px 30px;
+    border-color: #6cd4e6;
+    border-style: solid;
+    border-width: 0px 10px 10px 10px;
+}
+.progress{
+    background: #20549a;
+    /*border-width: 0px 10px 10px 10px;
+    -moz-border-image: url(images/border.png) 20 20 20 20 round round;
+    -webkit-border-image: url(images/border.png) 20 20 20 20 round round;
+    -o-border-image: url(images/border.png) 20 20 20 20 round round;
+    border-image: url(images/border.png) 20 20 20 20 round round;
+    border-color: #6cd4e6;
+    border-style: solid;*/
+    border-radius: 0 0 20px 20px;
+    box-shadow: inset 3px 0px 5px 0px #63abf7,
+                inset -3px 0px 5px 0px #63abf7,
+                1px 1px 8px 4px #357287;
+    
+    height: 120px;
+    width: 858px;
+}
+.button-area{
+    width: 227px;
+    height: 130px;
+}
+.pause{
+    margin: 10px 45px 20px;
+    background: #20549a;
+    width: 40%;
+    height: 60%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    height: 860px;
+}
+.left-block{
+    width: 50%;
+}
+.right-block{
+    width: 50%;
+}
+.panel-score{
+    margin:0 10%;
+    height: 60%;
+}
+.title{
+    background: linear-gradient(-180deg,#41CAF8 5%,#1b4b8c);
+    margin:auto;
+    line-height: 51px;
+    width: 255px;
+    height: 10%;
+    border-radius: 10px 10px 0 0;
+    border-color: #8aaee0;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+}
+.time-table{
+    background-image:url(images/circle.png);
+    background-size: cover;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    margin: 5% 25%;
+    box-shadow: 0px 0px 25px 0px #6da6f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel-score-border{
+    background: #90ffff;
+    border-radius: 30px;
+    height: 90%;
+    display: flex;
+}
+.panel-score-container{
+    background: #20549a;
+    height: 95%;
+    width: 95%;
+    border-radius: 20px;
+    margin:auto;
+    box-shadow: inset 0px 0px 5px 5px #2185FF,  
+                0px 0px 5px 5px #326D83;            
+}
+.score-table{
+    background: linear-gradient(180deg, #0a2243,#0f3a76);
+    width: 75%;
+    height: 30%;
+    margin: auto 12.5%;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 15px 0px #04162d,
+                0px 0px 2px 0px white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;            
+}
+#score{
+    font-size: 1.5em;
+}
+#time{
+    font-size: 350%;
+}
+.game-board-border{
+    background: #77bacb;
+    height: 597px;
+    margin: 0 5%;
+    width: 534px;
+    border-radius: 30px;
+    box-shadow: inset 0px 0px 10px 0px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-board{
+    background: #0d233d;
+    height: 567px;
+    width: 504px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 4px #0a0d2a;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tile{
+    height: 63px;
+    width: 56px;
+}
+.red{
+    background-image: url(images/red-tile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.yellow{
+    background-image: url(images/yellow-tile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.purple{
+    background-image: url(images/purple-tile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.green{
+    background-image: url(images/green-tile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.blue{
+    background-image: url(images/blue-tile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: Marvin;
+    src: url(fonts/Marvin.otf);
+}
