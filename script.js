@@ -24,9 +24,7 @@ class Board {
         }
     }
     GetRemoveCells() {
-        console.log(x);
-        console.log(y);
-        console.log(color);
+       
     }
     IsFinished(){
 
@@ -72,5 +70,4 @@ let gameBoard=document.querySelector('.game-board');
 let board=new Board(9,9);
 
 board.Init();
-board.GetRemoveCells=board.OnClickBoard;
 
